@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogDuLich.BAL.Interface\BlogDuLich.BAL.Interface.csproj" />
+    <ProjectReference Include="..\BlogDuLich.DAL.Interface\BlogDuLich.DAL.Interface.csproj" />
+    <ProjectReference Include="..\BlogDuLich.Domain\BlogDuLich.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogDuLich.BAL.Interface\BlogDuLich.BAL.Interface.csproj" />
+    <ProjectReference Include="..\BlogDuLich.BAL\BlogDuLich.BAL.csproj" />
+    <ProjectReference Include="..\BlogDuLich.DAL.Interface\BlogDuLich.DAL.Interface.csproj" />
+    <ProjectReference Include="..\BlogDuLich.DAL\BlogDuLich.DAL.csproj" />
+    <ProjectReference Include="..\BlogDuLich.Domain\BlogDuLich.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>
